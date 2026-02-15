@@ -1,6 +1,6 @@
 <?php
 
-namespace Sicet7\GCM;
+namespace RandomPHP\GCM;
 
 final class DecodedCipher
 {

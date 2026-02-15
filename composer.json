@@ -1,5 +1,5 @@
 {
-    "name": "sicet7/gcm",
+    "name": "randomphp/gcm",
     "description": "Package for encrypting strings with AES256-GCM",
     "type": "library",
     "require": {
@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sicet7\\GCM\\": "src/"
+            "RandomPHP\\GCM\\": "src/"
         }
     },
     "authors": [

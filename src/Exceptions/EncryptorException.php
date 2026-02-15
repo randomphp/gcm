@@ -1,6 +1,6 @@
 <?php
 
-namespace Sicet7\GCM\Exceptions;
+namespace RandomPHP\GCM\Exceptions;
 
 abstract class EncryptorException extends \Exception
 {

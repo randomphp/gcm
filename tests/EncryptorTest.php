@@ -5,12 +5,12 @@ declare(strict_types=1);
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\Test;
-use Sicet7\GCM\DecodedCipher;
-use Sicet7\GCM\EncryptionVersion;
-use Sicet7\GCM\Encryptor;
-use Sicet7\GCM\Exceptions\DecodingException;
-use Sicet7\GCM\Exceptions\DecryptionException;
-use Sicet7\GCM\Exceptions\EncryptionException;
+use RandomPHP\GCM\DecodedCipher;
+use RandomPHP\GCM\EncryptionVersion;
+use RandomPHP\GCM\Encryptor;
+use RandomPHP\GCM\Exceptions\DecodingException;
+use RandomPHP\GCM\Exceptions\DecryptionException;
+use RandomPHP\GCM\Exceptions\EncryptionException;
 use PHPUnit\Framework\TestCase as BaseTestCase;
 
 #[CoversClass(Encryptor::class), CoversClass(DecodedCipher::class)]

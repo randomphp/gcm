@@ -1,12 +1,12 @@
 <?php
 
-namespace Sicet7\GCM;
+namespace RandomPHP\GCM;
 
 use phpseclib3\Crypt\AES;
 use phpseclib3\Crypt\Random;
-use Sicet7\GCM\Exceptions\DecodingException;
-use Sicet7\GCM\Exceptions\DecryptionException;
-use Sicet7\GCM\Exceptions\EncryptionException;
+use RandomPHP\GCM\Exceptions\DecodingException;
+use RandomPHP\GCM\Exceptions\DecryptionException;
+use RandomPHP\GCM\Exceptions\EncryptionException;
 
 final class Encryptor
 {
