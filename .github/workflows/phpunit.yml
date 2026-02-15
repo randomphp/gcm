@@ -6,22 +6,6 @@ on:
             - master
 
 jobs:
-    unit-test-81:
-        name: Run PHPUnit on PHP 8.1 Tests
-        runs-on: ubuntu-latest
-
-        steps:
-            -   name: Checkout the repository code
-                uses: actions/checkout@v4
-            -   name: Composer install
-                uses: php-actions/composer@v6
-                with:
-                    php_version: 8.1
-                    version: 2
-                    dev: yes
-            -   name: PHPUnit
-                run: "./vendor/bin/phpunit"
-
     unit-test-82:
         name: Run PHPUnit on PHP 8.2 Tests
         runs-on: ubuntu-latest
@@ -49,6 +33,38 @@ jobs:
                 uses: php-actions/composer@v6
                 with:
                     php_version: 8.3
+                    version: 2
+                    dev: yes
+            -   name: PHPUnit
+                run: "./vendor/bin/phpunit"
+
+    unit-test-84:
+        name: Run PHPUnit on PHP 8.4 Tests
+        runs-on: ubuntu-latest
+
+        steps:
+            -   name: Checkout the repository code
+                uses: actions/checkout@v4
+            -   name: Composer install
+                uses: php-actions/composer@v6
+                with:
+                    php_version: 8.4
+                    version: 2
+                    dev: yes
+            -   name: PHPUnit
+                run: "./vendor/bin/phpunit"
+
+    unit-test-85:
+        name: Run PHPUnit on PHP 8.5 Tests
+        runs-on: ubuntu-latest
+
+        steps:
+            -   name: Checkout the repository code
+                uses: actions/checkout@v4
+            -   name: Composer install
+                uses: php-actions/composer@v6
+                with:
+                    php_version: 8.5
                     version: 2
                     dev: yes
             -   name: PHPUnit
